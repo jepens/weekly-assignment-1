@@ -97,7 +97,7 @@ def main():
         prediction = predict_price(model, scaler, features)
         
         # Menampilkan hasil
-        st.success(f"Predicted House Price (using {model_name}): ${prediction:,.2f} , (harga dalam ribuan dollar)")
+        st.success(f"Predicted House Price (Menggunakan Model {model_name}): ${prediction:,.2f} , (harga dalam ribuan dollar)")
         
         # Menampilkan interpretasi
         st.subheader("Model Interpretation")
