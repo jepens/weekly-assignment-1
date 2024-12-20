@@ -42,11 +42,11 @@ def predict_price(model, scaler, features):
 # Main function
 def main():
     # Header aplikasi
-    st.title("🏠 Boston House Price Prediction")
+    st.title("🏠 Boston House Price Prediction - TIM NLP ALAN TURING")
     st.write("Sistem prediksi harga rumah menggunakan Machine Learning")
     
     # Sidebar untuk pemilihan model
-    st.sidebar.header("Model Selection")
+    st.sidebar.header("Model Selection (Pilih Model)")
     model_choice = st.sidebar.radio(
         "Pilih Model Prediksi:",
         ["Linear Regression", "Random Forest"]
